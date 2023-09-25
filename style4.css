@@ -5,3 +5,37 @@ body{
     min-height: 600px;
         
 }
+
+@media (max-width: 1366px){
+    html{
+        font-size: 75%;
+    }
+}
+@media (max-width: 768px){
+    html{
+        font-size: 62.5%;
+    }
+    /* .about .row{
+        flex-wrap: wrap;
+    } */
+    /* .about .row .about-img img {
+        height: 24rem;
+        object-fit: cover ;
+        object-position: center;
+    } */
+    /* .about .row .content{
+        padding: 0;
+    }
+    .about .row .comtent h3{
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .about .row .content p {
+        font-size: 1.6rem;
+    } */
+}
+@media (max-width: 450px){
+    html{
+        font-size: 55%;
+    }
+}
