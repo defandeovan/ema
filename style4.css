@@ -1,8 +1,7 @@
 body{
     background-image: url("img/fix.jpg");
-    background-size: 1080px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
         
 }
 
