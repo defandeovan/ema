@@ -1,47 +1,8 @@
 body{
-    background-image: url("img/fix.jpg");
-<<<<<<< HEAD
-    background-repeat: no-repeat;
-    background-size: cover;
-=======
-    background-size: 450px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    min-height: 600px;
->>>>>>> 63d53723dea6eec8205bc2e8d641d5d359830684
-        
-}
-
-@media (max-width: 1366px){
-    html{
-        font-size: 75%;
-    }
-}
-@media (max-width: 768px){
-    html{
-        font-size: 62.5%;
-    }
-    /* .about .row{
-        flex-wrap: wrap;
-    } */
-    /* .about .row .about-img img {
-        height: 24rem;
-        object-fit: cover ;
-        object-position: center;
-    } */
-    /* .about .row .content{
-        padding: 0;
-    }
-    .about .row .comtent h3{
-        margin-top: 1rem;
-        font-size: 2rem;
-    }
-    .about .row .content p {
-        font-size: 1.6rem;
-    } */
-}
-@media (max-width: 450px){
-    html{
-        font-size: 55%;
-        backgroud-size : 50%
-    }
+background-image: url(img/fix.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+height: 100%;
 }
