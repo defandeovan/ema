@@ -1,8 +1,39 @@
+
 body{
+    margin: 0;
+    padding: 0;
 background-image: url(img/fix.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
 height: 100%;
+display: flex;
+   flex-wrap: wrap;
 }
+@media screen and (min-width: 450px) {
+    body{
+        margin: 0;
+        padding: 0;
+    background-image: url(img/fix2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    }
+ }
+ @media screen and (min-width: 550px) {
+    body{
+        margin: 0;
+        padding: 0;
+    background-image: url(img/fix2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    }
+ }
