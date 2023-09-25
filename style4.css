@@ -1,6 +1,6 @@
 body{
     background-image: url("img/fix.jpg");
-    background-size: 1080px;
+    background-size: 450px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     min-height: 600px;
         
@@ -37,5 +37,6 @@ body{
 @media (max-width: 450px){
     html{
         font-size: 55%;
+        backgroud-size : 50%
     }
 }
